@@ -1,0 +1,22 @@
+{
+  "name": "project_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/main.css -o ./dist/tailwind.css --watch",
+    "product": "cross-env NODE_ENV=production npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "cross-env": "^7.0.3"
+  }
+}

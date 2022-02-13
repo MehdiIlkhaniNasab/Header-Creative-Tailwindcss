@@ -1,0 +1,9 @@
+header::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    backdrop-filter: grayscale(100%);
+}
